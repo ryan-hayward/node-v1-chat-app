@@ -86,7 +86,7 @@ const autoscroll = () => {
     if (containerHeight - newMessageHeight <= scrollOffset) {
         $messages.scrollTop = $messages.scrollHeight // will push us to the bottom
     }
-
+    console.log("I'm here.")
 }
 
 
